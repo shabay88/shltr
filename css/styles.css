@@ -422,6 +422,7 @@ template {
   letter-spacing: 6%;
   width: 207px;
   height: 52px;
+  border: 100px;
   border-radius: 100px;
 }
 
@@ -553,6 +554,115 @@ template {
   line-height: 130%;
   letter-spacing: 6%;
   text-align: left;
+}
+
+/* line 140, ../../shltr/sass/styles.sass */
+.pets {
+  padding: 80px 40px 100px 40px;
+  width: 100%;
+  height: 877px;
+  background: #F6F6F6;
+}
+
+/* line 145, ../../shltr/sass/styles.sass */
+.pets__container {
+  height: 697px;
+}
+
+/* line 147, ../../shltr/sass/styles.sass */
+.pets__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 152, ../../shltr/sass/styles.sass */
+.pets__title {
+  text-align: center;
+  width: 400px;
+  height: 90px;
+  margin: 0 auto 60px;
+}
+
+/* line 157, ../../shltr/sass/styles.sass */
+.pets__cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+/* line 161, ../../shltr/sass/styles.sass */
+.pets__card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: #FAFAFA;
+  border-radius: 9px;
+  margin-right: 90px;
+}
+
+/* line 169, ../../shltr/sass/styles.sass */
+.pets__card:last-of-type {
+  margin-right: 53px;
+}
+
+/* line 171, ../../shltr/sass/styles.sass */
+.pets__name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 6%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 178, ../../shltr/sass/styles.sass */
+.pets__img {
+  margin-bottom: 30px;
+}
+
+/* line 180, ../../shltr/sass/styles.sass */
+.pets__button {
+  font-size: 17px;
+  background: transparent;
+  text-align: center;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 6%;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  margin: 0 auto 30px;
+}
+
+/* line 183, ../../shltr/sass/styles.sass */
+.pets__second-button {
+  font-size: 17px;
+  background: #F1CDB3;
+  text-align: center;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 6%;
+  width: 261px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+/* line 187, ../../shltr/sass/styles.sass */
+.arrows {
+  background: transparent;
+  border: none;
+  margin-right: 53px;
+}
+
+/* line 191, ../../shltr/sass/styles.sass */
+.arrows:last-child {
+  margin-right: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */
