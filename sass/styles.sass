@@ -30,6 +30,34 @@ $transition-timing: ease
     margin: 0
     padding: 0
 
+html
+    scroll-behavior: smooth
+
+.logotype
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-decoration: none
+    &__main
+        font-family: Georgia
+        font-size: 32px
+        font-weight: 400
+        line-height: 110%
+        letter-spacing: 6%
+        text-align: left
+        color: $color-primary
+        margin-bottom: 10px
+    &__description
+        font-family: Arial
+        font-size: 13px
+        font-weight: 400
+        line-height: 15px
+        letter-spacing: 10%
+        text-align: left
+        color: #FFFFFF
+        margin: auto
+
 .start-screen
     &__container
     position: relative
@@ -53,6 +81,10 @@ $transition-timing: ease
         margin-bottom: 42px
     &__button-primary
         @include button(207px, $border: 100px, $background-color: $color-primary )
+        &:hover
+            background: #FDDCC4
+            cursor: pointer
+            transition: 0.5s ease
     &__content-right
         position: absolute
         width: 698px
@@ -100,6 +132,7 @@ $transition-timing: ease
         transition: 0.3s ease
         &:hover
             border-bottom-color: #F1CDB3
+            transition: 0.5s ease
 
 .about-project
     width: 100%
@@ -178,9 +211,18 @@ $transition-timing: ease
     &__button
         @include button($width: 187px, $border:2px solid rgb(241, 205, 179) , $background-color: transparent )
         margin: 0 auto 30px
+        &:hover
+            background: #FDDCC4
+            cursor: pointer
+            transition: 0.5s ease
+        
     &__second-button
-        @include button($width: 261px, $border: none, $background-color: #F1CDB3 )
+        @include button($width: 261px, $border: none, $background-color:#F1CDB3 )
         margin: 0 auto
+        &:hover
+            background: #FDDCC4
+            cursor: pointer
+            transition: 0.5s ease
         
 .arrows 
     background: transparent
